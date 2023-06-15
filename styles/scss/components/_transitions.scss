@@ -1,0 +1,184 @@
+@use "../utilities/variables.scss" as vars;
+@use "../colors/palette" as colors;
+@use "sass:math";
+
+
+@keyframes parpadeo-r1{
+    0%, 100%{
+        background-color: colors.$neutral-20;
+    }
+    10%{
+        background-color: colors.$primary-var-110;
+        color: #ffff;
+    }
+}
+@keyframes parpadeo-r2{
+    0%, 100%{
+        background-color: colors.$neutral-20;
+    }
+    30%{
+        background-color: colors.$primary-var-110;
+        color: #ffff;
+    }
+}
+@keyframes parpadeo-r3{
+    0%, 100%{
+        background-color: colors.$neutral-20;
+    }
+    50%{
+        background-color: colors.$primary-var-110;
+        color: #ffff;
+    }
+}
+@keyframes parpadeo-r4{
+    0%, 100%{
+        background-color: colors.$neutral-20;
+    }
+    70%{
+        background-color: colors.$primary-var-110;
+        color: #ffff;
+    }
+}
+@keyframes parpadeo-r5{
+    0%, 100%{
+        background-color: colors.$neutral-20;
+    }
+    90%{
+        background-color: colors.$primary-var-110;
+        color: #ffff;
+    }
+}
+@keyframes parpadeo-g1{
+    0%, 100%{
+        background-color: colors.$neutral-20;
+    }
+    10%{
+        background-color: colors.$primary-100;
+        color: #ffff;
+    }
+}
+@keyframes parpadeo-g2{
+    0%, 100%{
+        background-color: colors.$neutral-20;
+    }
+    30%{
+        background-color: colors.$primary-100;
+        color: #ffff;
+    }
+}
+@keyframes parpadeo-g3{
+    0%, 100%{
+        background-color: colors.$neutral-20;
+    }
+    50%{
+        background-color: colors.$primary-100;
+        color: #ffff;
+    }
+}
+@keyframes parpadeo-g4{
+    0%, 100%{
+        background-color: colors.$neutral-20;
+    }
+    70%{
+        background-color: colors.$primary-100;
+        color: #ffff;
+    }
+}
+@keyframes parpadeo-g5{
+    0%, 100%{
+        background-color: colors.$neutral-20;
+    }
+    90%{
+        background-color: colors.$primary-100;
+        color: #ffff;
+    }
+}
+.keyframe-r1{
+    background-color: colors.$neutral-20;
+    animation: parpadeo-r1 vars.$time-transition infinite;
+    animation-timing-function: ease-in-out;
+}
+.keyframe-r2{
+    animation: parpadeo-r2 vars.$time-transition infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: vars.$time-delay;
+}
+.keyframe-r3{
+    animation: parpadeo-r3 vars.$time-transition infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: vars.$time-delay;
+}
+.keyframe-r4{
+    animation: parpadeo-r4 vars.$time-transition infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: vars.$time-delay;
+}
+.keyframe-r5{
+    animation: parpadeo-r5 vars.$time-transition infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: vars.$time-delay;
+}
+
+.keyframe-g1{
+    background-color: colors.$neutral-20;
+    animation: parpadeo-g1 vars.$time-transition infinite;
+    animation-timing-function: ease-in-out;
+}
+.keyframe-g2{
+    background-color: colors.$neutral-20;
+    animation: parpadeo-g2 vars.$time-transition infinite;
+    animation-timing-function: ease-in-out;
+}
+.keyframe-g3{
+    background-color: colors.$neutral-20;
+    animation: parpadeo-g3 vars.$time-transition infinite;
+    animation-timing-function: ease-in-out;
+}
+.keyframe-g4{
+    background-color: colors.$neutral-20;
+    animation: parpadeo-g4 vars.$time-transition infinite;
+    animation-timing-function: ease-in-out;
+}
+.keyframe-g5{
+    background-color: colors.$neutral-20;
+    animation: parpadeo-g5 vars.$time-transition infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes parpadeo-rg-1{
+    0%, 50%, 100%{
+        background-color: colors.$neutral-20;
+    }
+    25%{
+        background-color: colors.$primary-var-110;
+        color: #ffff;
+    }
+
+    75%{
+        background-color: colors.$primary-100;
+    }
+}
+@keyframes parpadeo-rg-2{
+    0%, 50%, 100%{
+        background-color: colors.$neutral-20;
+    }
+    40%{
+        background-color: colors.$primary-var-110;
+        color: #ffff;
+    }
+
+    80%{
+        background-color: colors.$primary-100;
+    }
+}
+
+.keyframe-rg-1{
+    background-color: colors.$neutral-20;
+    animation: parpadeo-rg-1 vars.$time-transition infinite;
+    animation-timing-function: ease-in-out;
+}
+.keyframe-rg-2{
+    background-color: colors.$neutral-20;
+    animation: parpadeo-rg-2 vars.$time-transition infinite;
+    animation-timing-function: ease-in-out;
+}

@@ -1,0 +1,106 @@
+@use "../layout/layout";
+@use "../colors/palette" as colors;
+@use "sass:math";
+
+.footer-fixed{
+    width: 100%;
+
+    position: fixed;
+    bottom: 0;
+    left: 5rem;
+
+    z-index: 200;
+
+    margin-right: 5rem;
+
+    .footer-container{
+        height: 5rem;
+        margin-right: 5rem;
+    
+        display: flex;
+        justify-content: space-between;
+    
+        background-color: colors.$neutral-0;
+        box-shadow: 0 0.063rem 0.75rem #00000014;
+        
+        position: relative;
+    
+        .footer-item{
+            width: math.div(100%, 4);
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .footer-text{
+                width: 100%;
+                height: 100%;
+                
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                
+                .footer-valor-2{
+                    color: colors.$neutral-90;
+                }
+
+                .blue-text{
+                    color: colors.$secondary-100;
+                }
+                .green-text{
+                    color: colors.$primary-100;
+                }
+            }
+
+
+        }
+
+        .footer-icon-container{
+            width: 100%;
+            height: 5rem;
+            margin-right: 5rem;
+
+            position: absolute;
+            bottom: 0;
+            left: 0;
+
+            display: flex;
+
+
+            .footer-icon-sect{
+                width: 50%;
+                height: 5rem;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                i{
+                    font-size: 1.2rem;
+
+                    color: colors.$neutral-90;
+                }
+            }
+
+            .footer-mid-icon-container{
+                height: 5rem;
+                width: 100%;
+                position: absolute;
+
+                display: grid;
+
+                .footer-mid-icon{                    
+                    margin: auto;
+                    
+                    i{
+                        font-size: 1.2rem;
+                        color: colors.$neutral-90;
+                    }
+
+                }
+                
+            }
+        }
+    }
+}

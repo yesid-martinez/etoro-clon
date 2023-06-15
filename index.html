@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/css/style.css" />
+    <link rel="shortcut icon" href="favicon-32x32.ico" type="image/x-icon" />
+    <title>Etoro</title>
+    <script
+      src="https://kit.fontawesome.com/9db4ff0e93.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="layout">
+      <nav class="nav">
+        <div class="nav-first-sect">
+          <div class="nav-element1">
+            <img src="styles/scss/images/expand-icon.svg" alt="Expand icon" />
+          </div>
+          <div class="nav-element2">
+            <img
+              src="styles/scss/images/20-203651_hardcore-gabber.svg"
+              alt="User"
+            />
+          </div>
+        </div>
+        <div class="nav-second-sect">
+          <div class="nav-element3">
+            <img src="styles/scss/images/home-icon.svg" alt="Home icon" />
+          </div>
+          <div class="nav-element4">
+            <img
+              src="styles/scss/images/watchlist-icon.svg"
+              alt="Watchlist icon"
+            />
+          </div>
+          <div class="nav-element5">
+            <i class="fa-sharp fa-solid fa-chart-pie nav-element5-icon"></i>
+          </div>
+          <div class="nav-element6">
+            <i class="fa-solid fa-compass fa-flip-horizontal"></i>
+          </div>
+        </div>
+        <div class="nav-settings-sect">
+          <div class="nav-element7">
+            <img
+              src="styles/scss/images/settings-icon.svg"
+              alt="Settings icon"
+            />
+          </div>
+        </div>
+      </nav>
+
+      <div class="first-bar">
+        <div class="bar-first-sect">
+          <div class="fbar-search">
+            <input type="text" placeholder="Buscar" name="search-input" />
+            <span><i class="fa-solid fa-magnifying-glass"></i></span>
+          </div>
+        </div>
+        <div class="bar-second-sect">
+          <div class="fbar-bell">
+            <i class="fa-solid fa-bell"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="second-bar">
+        <div class="sbar-sect1">
+          <h2>Lista de seguimiento</h2>
+          <img
+            src="styles/scss/images/down-angle-icon.svg"
+            alt="Angle down icon"
+          />
+        </div>
+        <div class="sbar-sect2">
+          <div class="sbar-plus"><i class="fa-regular fa-plus"></i></div>
+          <div class="sbar-sliders">
+            <img src="styles/scss/images/sliders-icon.svg" alt="Sliders icon" />
+          </div>
+          <div class="sbar-settings">
+            <img
+              src="styles/scss/images/settings-icon-dark.svg"
+              alt="Settings icon"
+            />
+          </div>
+          <div class="sbar-options"><i class="fa-solid fa-grip"></i></div>
+        </div>
+      </div>
+
+      <div class="pills-bar">
+        <div class="pill pill-selected">Todo</div>
+        <div class="pill">Mi portafolio</div>
+        <div class="pill">ETFs</div>
+        <div class="pill">Acciones</div>
+        <div class="pill">Criptomonedas</div>
+        <div class="pill">índices</div>
+        <div class="pill">Materias primas</div>
+        <div class="pill">Personas</div>
+        <div class="pill">Smart Portfolios</div>
+      </div>
+
+      <div class="headers-bar">
+        <div class="headers-first-sect">
+          <span>Instrumentos</span>
+          <div class="headers-blue-element">
+            <span>Rendimiento</span>
+            <span style="color: #2999f5">1D</span>
+            <img src="styles/scss/images/blue-icon.svg" alt="Icon blue" />
+          </div>
+        </div>
+        <div class="headers-empty-sect"></div>
+        <div class="headers-second-sect">
+          <span class="sell-item">Vender</span>
+          <span class="buy-item">Comprar</span>
+          <span class="range52-item">Rango de 52 W</span>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="content-sect">
+          <div class="content-item-1">
+            <div class="first-second-items">
+              <div class="item-container">
+                <div class="first-item-img">
+                  <img src="styles/scss/images/voo-img.svg" alt="VOO" />
+                </div>
+                <div class="first-item-text">
+                  <span class="company">VOO</span>
+                  <span class="company-name"
+                    >Vanguard Portfolio S<span class="bold-modify">&</span>P
+                    <span class="bold-modify">500</span>High</span
+                  >
+                </div>
+              </div>
+              <div class="first-item-icon">
+                <i class="fa-sharp fa-solid fa-chart-pie"></i>
+              </div>
+              <div class="second-item second-item-red">
+                <span class="second-item-number">-0.02</span>
+                <div class="item-percentage percentage-red">
+                  <div class="percentage-icon percentage-1">
+                    <i class="fa-solid fa-caret-right fa-rotate-90"></i>
+                  </div>
+                  <span class="percentage-number">(-0.01%)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="graphic">
+            <img src="styles/scss/images/voo-graphic.jpg" alt="Graphic" />
+          </div>
+
+          <div class="content-item-2">
+            <div class="content-item">
+              <div class="content-item-shape keyframe-rg-1">
+                <div class="content-item-icon">V</div>
+                <span class="item-shape-number">380.00</span>
+              </div>
+            </div>
+            <div class="content-item">
+              <div class="content-item-shape keyframe-r3">
+                <div class="content-item-icon">C</div>
+                <span class="item-shape-number">381.19</span>
+              </div>
+            </div>
+            <div class="content-item">
+              <div class="item-transparent">
+                <div class="transparent-numbers">
+                  <span>319.32</span>
+                  <span>413.28</span>
+                </div>
+                <div class="transparent-bar">
+                  <div class="transparent-bar-shape">
+                    <div class="transparent-bar-icon bar-icon-1">
+                      <i class="fa-solid fa-caret-right fa-rotate-90"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-points-icon">
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-sect">
+          <div class="content-item-1">
+            <div class="first-second-items">
+              <div class="item-container">
+                <div class="first-item-img">
+                  <img src="styles/scss/images/spyd-img.svg" alt="SPYD" />
+                </div>
+                <div class="first-item-text">
+                  <span class="company">SPYD</span>
+                  <span class="company-name"
+                    >SPDR Portfolio S<span class="bold-modify">&</span>P
+                    <span class="bold-modify">500 </span> High...</span
+                  >
+                </div>
+              </div>
+              <div class="first-item-icon">
+                <i class="fa-sharp fa-solid fa-chart-pie"></i>
+              </div>
+
+              <div class="second-item second-item-green">
+                <span class="second-item-number">0.11</span>
+                <div class="item-percentage">
+                  <div class="percentage-icon">
+                    <i class="fa-solid fa-caret-right fa-rotate-270"></i>
+                  </div>
+                  <span class="percentage-number">(0.29%)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="graphic">
+            <img src="styles/scss/images/spyd-graphic.jpg" alt="Graphic" />
+          </div>
+
+          <div class="content-item-2">
+            <div class="content-item">
+              <div class="content-item-shape keyframe-g4">
+                <div class="content-item-icon">V</div>
+                <span class="item-shape-number">38.40</span>
+              </div>
+            </div>
+            <div class="content-item">
+              <div class="content-item-shape keyframe-r5">
+                <div class="content-item-icon">C</div>
+                <span class="item-shape-number">38.53</span>
+              </div>
+            </div>
+            <div class="content-item">
+              <div class="item-transparent">
+                <div class="transparent-numbers">
+                  <span>34.74</span>
+                  <span>45.78</span>
+                </div>
+                <div class="transparent-bar">
+                  <div class="transparent-bar-shape">
+                    <div class="transparent-bar-icon bar-icon-2">
+                      <i class="fa-solid fa-caret-right fa-rotate-90"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-points-icon">
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-sect">
+          <div class="content-item-1">
+            <div class="first-second-items">
+              <div class="item-container">
+                <div class="first-item-img">
+                  <img src="styles/scss/images/tesla-img.svg" alt="TSLA" />
+                </div>
+                <div class="first-item-text">
+                  <span class="company">TSLA</span>
+                  <span class="company-name">Tesla Motors, Inc.</span>
+                </div>
+              </div>
+              <div class="first-item-icon">
+                <i class="fa-sharp fa-solid fa-chart-pie"></i>
+              </div>
+              <div class="second-item second-item-red">
+                <span class="second-item-number">-3.72</span>
+                <div class="item-percentage percentage-red">
+                  <div class="percentage-icon percentage-1">
+                    <i class="fa-solid fa-caret-right fa-rotate-90"></i>
+                  </div>
+                  <span class="percentage-number">(-2.02%)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="graphic">
+            <img src="styles/scss/images/tesla-graphic.jpg" alt="Graphic" />
+          </div>
+
+          <div class="content-item-2">
+            <div class="content-item">
+              <div class="content-item-shape keyframe-r2">
+                <div class="content-item-icon">V</div>
+                <span class="item-shape-number">180.32</span>
+              </div>
+            </div>
+            <div class="content-item">
+              <div class="content-item-shape keyframe-r4">
+                <div class="content-item-icon">C</div>
+                <span class="item-shape-number">180.89</span>
+              </div>
+            </div>
+            <div class="content-item">
+              <div class="item-transparent">
+                <div class="transparent-numbers">
+                  <span>101.67</span>
+                  <span>362.90</span>
+                </div>
+                <div class="transparent-bar">
+                  <div class="transparent-bar-shape">
+                    <div class="transparent-bar-icon bar-icon-3">
+                      <i class="fa-solid fa-caret-right fa-rotate-90"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-points-icon">
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-sect">
+          <div class="content-item-1">
+            <div class="first-second-items">
+              <div class="item-container">
+                <div class="first-item-img">
+                  <img src="styles/scss/images/epam-img.svg" alt="EPAM" />
+                </div>
+                <div class="first-item-text">
+                  <span class="company">EPAM</span>
+                  <span class="company-name">EPAM Systems Inc.</span>
+                </div>
+              </div>
+              <div class="first-item-icon">
+                <i class="fa-sharp fa-solid fa-chart-pie"></i>
+              </div>
+              <div class="second-item second-item-red">
+                <span class="second-item-number">-6.31</span>
+                <div class="item-percentage percentage-red">
+                  <div class="percentage-icon percentage-1">
+                    <i class="fa-solid fa-caret-right fa-rotate-90"></i>
+                  </div>
+                  <span class="percentage-number">(-2.14%)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="graphic">
+            <img src="styles/scss/images/epam-graphic.jpg" alt="Graphic" />
+          </div>
+
+          <div class="content-item-2">
+            <div class="content-item">
+              <div class="content-item-shape keyframe-r3">
+                <div class="content-item-icon">V</div>
+                <span class="item-shape-number">288.03</span>
+              </div>
+            </div>
+            <div class="content-item">
+              <div class="content-item-shape keyframe-g1">
+                <div class="content-item-icon">C</div>
+                <span class="item-shape-number">289.24</span>
+              </div>
+            </div>
+            <div class="content-item">
+              <div class="item-transparent">
+                <div class="transparent-numbers">
+                  <span>260.68</span>
+                  <span>462.04</span>
+                </div>
+                <div class="transparent-bar">
+                  <div class="transparent-bar-shape">
+                    <div class="transparent-bar-icon bar-icon-4">
+                      <i class="fa-solid fa-caret-right fa-rotate-90"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-points-icon">
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-sect">
+          <div class="content-item-1">
+            <div class="first-second-items">
+              <div class="item-container">
+                <div class="first-item-img">
+                  <img src="styles/scss/images/amazon-img.svg" alt="AMZN" />
+                </div>
+                <div class="first-item-text">
+                  <span class="company">AMZN</span>
+                  <span class="company-name">Amazon.com Inc</span>
+                </div>
+              </div>
+              <div class="first-item-icon">
+                <i class="fa-sharp fa-solid fa-chart-pie"></i>
+              </div>
+              <div class="second-item second-item-green">
+                <span class="second-item-number">2.00</span>
+                <div class="item-percentage percentage-green">
+                  <div class="percentage-icon percentage-1">
+                    <i class="fa-solid fa-caret-right fa-rotate-270"></i>
+                  </div>
+                  <span class="percentage-number">(1.96%)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="graphic">
+            <img src="styles/scss/images/amazon-graphic.jpg" alt="Graphic" />
+          </div>
+
+          <div class="content-item-2">
+            <div class="content-item">
+              <div class="content-item-shape keyframe-g2">
+                <div class="content-item-icon">V</div>
+                <span class="item-shape-number">104.18</span>
+              </div>
+            </div>
+            <div class="content-item">
+              <div class="content-item-shape keyframe-g5">
+                <div class="content-item-icon">C</div>
+                <span class="item-shape-number">104.51</span>
+              </div>
+            </div>
+            <div class="content-item">
+              <div class="item-transparent">
+                <div class="transparent-numbers">
+                  <span>81.30</span>
+                  <span>157.40</span>
+                </div>
+                <div class="transparent-bar">
+                  <div class="transparent-bar-shape">
+                    <div class="transparent-bar-icon bar-icon-5">
+                      <i class="fa-solid fa-caret-right fa-rotate-90"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-points-icon">
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-sect">
+          <div class="content-item-1">
+            <div class="first-second-items">
+              <div class="item-container">
+                <div class="first-item-img">
+                  <img src="styles/scss/images/apple-img.svg" alt="AAPL" />
+                </div>
+                <div class="first-item-text">
+                  <span class="company">AAPL</span>
+                  <span class="company-name">Apple</span>
+                </div>
+              </div>
+              <div class="first-item-icon">
+                <i class="fa-sharp fa-solid fa-chart-pie"></i>
+              </div>
+              <div class="second-item second-item-red">
+                <span class="second-item-number">-1.12</span>
+                <div class="item-percentage percentage-red">
+                  <div class="percentage-icon percentage-1">
+                    <i class="fa-solid fa-caret-right fa-rotate-90"></i>
+                  </div>
+                  <span class="percentage-number">(-0.67%)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="graphic">
+            <img src="styles/scss/images/apple-graphic.jpg" alt="Graphic" />
+          </div>
+
+          <div class="content-item-2">
+            <div class="content-item">
+              <div class="content-item-shape keyframe-r5">
+                <div class="content-item-icon">V</div>
+                <span class="item-shape-number">166.50</span>
+              </div>
+            </div>
+            <div class="content-item">
+              <div class="content-item-shape keyframe-r3">
+                <div class="content-item-icon">C</div>
+                <span class="item-shape-number">167.03</span>
+              </div>
+            </div>
+            <div class="content-item">
+              <div class="item-transparent">
+                <div class="transparent-numbers">
+                  <span>123.99</span>
+                  <span>175.98</span>
+                </div>
+                <div class="transparent-bar">
+                  <div class="transparent-bar-shape">
+                    <div class="transparent-bar-icon bar-icon-6">
+                      <i class="fa-solid fa-caret-right fa-rotate-90"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-points-icon">
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-sect">
+          <div class="content-item-1">
+            <div class="first-second-items">
+              <div class="item-container">
+                <div class="first-item-img">
+                  <img src="styles/scss/images/btc-img.svg" alt="BTC" />
+                </div>
+                <div class="first-item-text">
+                  <span class="company">BTC</span>
+                  <span class="company-name">Bitcoin</span>
+                </div>
+              </div>
+              <div class="first-item-icon">
+                <i class="fa-sharp fa-solid fa-chart-pie"></i>
+              </div>
+              <div class="second-item second-item-red">
+                <span class="second-item-number">-993.41</span>
+                <div class="item-percentage percentage-red">
+                  <div class="percentage-icon percentage-1">
+                    <i class="fa-solid fa-caret-right fa-rotate-90"></i>
+                  </div>
+                  <span class="percentage-number">(-3.43%)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="graphic">
+            <img src="styles/scss/images/btc-graphic.jpg" alt="Graphic" />
+          </div>
+
+          <div class="content-item-2">
+            <div class="content-item">
+              <div class="content-item-shape keyframe-r2">
+                <div class="content-item-icon">V</div>
+                <span class="item-shape-number">29751.38</span>
+              </div>
+            </div>
+            <div class="content-item">
+              <div class="content-item-shape keyframe-rg-1">
+                <div class="content-item-icon">C</div>
+                <span class="item-shape-number">28527.78</span>
+              </div>
+            </div>
+            <div class="content-item">
+              <div class="item-transparent">
+                <div class="transparent-numbers">
+                  <span>15312.76</span>
+                  <span>40437.12</span>
+                </div>
+                <div class="transparent-bar">
+                  <div class="transparent-bar-shape">
+                    <div class="transparent-bar-icon bar-icon-7">
+                      <i class="fa-solid fa-caret-right fa-rotate-90"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-points-icon">
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-sect">
+          <div class="content-item-1">
+            <div class="first-second-items">
+              <div class="item-container">
+                <div class="first-item-img">
+                  <img src="styles/scss/images/xrp-img.svg" alt="XRP" />
+                </div>
+                <div class="first-item-text">
+                  <span class="company">XRP</span>
+                  <span class="company-name">XRP</span>
+                </div>
+              </div>
+              <div class="first-item-icon">
+                <i class="fa-sharp fa-solid fa-chart-pie"></i>
+              </div>
+
+              <div class="second-item second-item-green">
+                <span class="second-item-number">0.00052</span>
+                <div class="item-percentage">
+                  <div class="percentage-icon">
+                    <i class="fa-solid fa-caret-right fa-rotate-270"></i>
+                  </div>
+                  <span class="percentage-number">(0.11%)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="graphic">
+            <img src="styles/scss/images/xrp-graphic.jpg" alt="Graphic" />
+          </div>
+
+          <div class="content-item-2">
+            <div class="content-item">
+              <div class="content-item-shape keyframe-g5">
+                <div class="content-item-icon">V</div>
+                <span class="item-shape-number">0.46705</span>
+              </div>
+            </div>
+            <div class="content-item">
+              <div class="content-item-shape keyframe-g2">
+                <div class="content-item-icon">C</div>
+                <span class="item-shape-number">0.47681</span>
+              </div>
+            </div>
+            <div class="content-item">
+              <div class="item-transparent">
+                <div class="transparent-numbers">
+                  <span>0.28</span>
+                  <span>0.73</span>
+                </div>
+                <div class="transparent-bar">
+                  <div class="transparent-bar-shape">
+                    <div class="transparent-bar-icon bar-icon-8">
+                      <i class="fa-solid fa-caret-right fa-rotate-90"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-points-icon">
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-sect">
+          <div class="content-item-1">
+            <div class="first-second-items">
+              <div class="item-container">
+                <div class="first-item-img">
+                  <img src="styles/scss/images/nsdq100-img.svg" alt="SPX500" />
+                </div>
+                <div class="first-item-text">
+                  <span class="company">SPX500</span>
+                  <span class="company-name"
+                    >SPX<span class="bold-modify">500</span> Index</span
+                  >
+                </div>
+              </div>
+              <div class="first-item-icon">
+                <i class="fa-sharp fa-solid fa-chart-pie"></i>
+              </div>
+              <div class="second-item second-item-red">
+                <span class="second-item-number">-18.32</span>
+                <div class="item-percentage percentage-red">
+                  <div class="percentage-icon percentage-1">
+                    <i class="fa-solid fa-caret-right fa-rotate-90"></i>
+                  </div>
+                  <span class="percentage-number">(-0.44%)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="graphic">
+            <img src="styles/scss/images/spx500-graphic.jpg" alt="Graphic" />
+          </div>
+
+          <div class="content-item-2">
+            <div class="content-item">
+              <div class="content-item-shape keyframe-g3">
+                <div class="content-item-icon">V</div>
+                <span class="item-shape-number">4130.80</span>
+              </div>
+            </div>
+            <div class="content-item">
+              <div class="content-item-shape keyframe-g3">
+                <div class="content-item-icon">C</div>
+                <span class="item-shape-number">4131055</span>
+              </div>
+            </div>
+            <div class="content-item">
+              <div class="item-transparent">
+                <div class="transparent-numbers">
+                  <span>3490.42</span>
+                  <span>45112.92</span>
+                </div>
+                <div class="transparent-bar">
+                  <div class="transparent-bar-shape">
+                    <div class="transparent-bar-icon bar-icon-9">
+                      <i class="fa-solid fa-caret-right fa-rotate-90"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-points-icon">
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-sect">
+          <div class="content-item-1">
+            <div class="first-second-items">
+              <div class="item-container">
+                <div class="first-item-img">
+                  <img src="styles/scss/images/nsdq100-img.svg" alt="NSDQ100" />
+                </div>
+                <div class="first-item-text">
+                  <span class="company">NSDQ100</span>
+                  <span class="company-name">NSDQ100 Index</span>
+                </div>
+              </div>
+              <div class="first-item-icon">
+                <i class="fa-sharp fa-solid fa-chart-pie"></i>
+              </div>
+              <div class="second-item second-item-red">
+                <span class="second-item-number">-71.40</span>
+                <div class="item-percentage percentage-red">
+                  <div class="percentage-icon percentage-1">
+                    <i class="fa-solid fa-caret-right fa-rotate-90"></i>
+                  </div>
+                  <span class="percentage-number">(-0.55%)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="graphic">
+            <img src="styles/scss/images/nsdq100-graphic.jpg" alt="Graphic" />
+          </div>
+
+          <div class="content-item-2">
+            <div class="content-item">
+              <div class="content-item-shape keyframe-rg-1">
+                <div class="content-item-icon">V</div>
+                <span class="item-shape-number">12999.00</span>
+              </div>
+            </div>
+            <div class="content-item">
+              <div class="content-item-shape keyframe-r3">
+                <div class="content-item-icon">C</div>
+                <span class="item-shape-number">13001.40</span>
+              </div>
+            </div>
+            <div class="content-item">
+              <div class="item-transparent">
+                <div class="transparent-numbers">
+                  <span>10431.40</span>
+                  <span>14290.20</span>
+                </div>
+                <div class="transparent-bar">
+                  <div class="transparent-bar-shape">
+                    <div class="transparent-bar-icon bar-icon-10">
+                      <i class="fa-solid fa-caret-right fa-rotate-90"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-points-icon">
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-back"></div>
+      </div>
+
+      <div class="footer-fixed">
+        <div class="footer-container">
+          <div class="footer-item">
+            <div class="footer-text">
+              <span class="footer-valor">$250,000.00</span>
+              <span class="footer-valor-2">Efectivo Disponible</span>
+            </div>
+          </div>
+          <div class="footer-item">
+            <div class="footer-text">
+              <span class="footer-valor">$25,500.00</span>
+              <span class="footer-valor-2">Total Invertido</span>
+            </div>
+          </div>
+          <div class="footer-item">
+            <div class="footer-text">
+              <span class="footer-valor green-text">$2,004.62</span>
+              <span class="footer-valor-2">Ganancia/Pérdida</span>
+            </div>
+          </div>
+          <div class="footer-item">
+            <div class="footer-text">
+              <span class="footer-valor blue-text">$277,504.62</span>
+              <span class="footer-valor-2">Valor Del Portafolio</span>
+            </div>
+          </div>
+
+          <div class="footer-icon-container">
+            <div class="footer-icon-sect">
+              <i class="fa-regular fa-plus"></i>
+            </div>
+            <div class="footer-icon-sect">
+              <i class="fa-regular fa-equals"></i>
+            </div>
+            <div class="footer-mid-icon-container">
+              <div class="footer-mid-icon">
+                <i class="fa-regular fa-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

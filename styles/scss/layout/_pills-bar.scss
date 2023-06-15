@@ -1,0 +1,45 @@
+@use "../colors/palette" as colors;
+@import "../components/pills";
+
+.pills-bar{
+    background-color: colors.$neutral-0;
+    
+    width: 100%;
+    height: 3.438rem;
+
+    position: fixed;
+    top: 0;
+    left: 5rem;
+    z-index: 200;
+
+    padding-left: 1.1rem;
+    padding-right: 5rem;
+    margin-top: 4.375rem * 2;
+
+    display: flex;
+    
+
+
+    .pill{
+        @include pills;
+    }
+
+    .pill:hover{
+        border-color: colors.$neutral-40-dm;
+        transition: .4s;
+    }
+
+    .pill:not(:hover){
+        border-color: colors.$neutral-40;
+        transition: .4s;
+    }
+    
+    .pill-selected{
+        background-color: colors.$neutral-20-dm;
+        border: 0 ;
+        color: colors.$neutral-0 !important;  
+    }
+    .pill-selected:hover{
+        border: 0;
+    }
+}

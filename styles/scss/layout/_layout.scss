@@ -1,0 +1,17 @@
+@use "../utilities/variables.scss" as vars;
+@use "first-bar";
+@use "sass:math";
+.layout{
+    height: 100vh;
+    width: 100vw;
+
+    display: grid;
+    grid-template-columns: 5rem 1fr;
+    grid-template-rows: 100vh;
+    
+    position: relative;
+}
+.nav{
+    grid-column: 1 / 2;
+}
+

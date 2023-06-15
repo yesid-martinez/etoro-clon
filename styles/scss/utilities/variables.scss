@@ -1,0 +1,13 @@
+@use "sass:math";
+// Layout size
+$vh-base: 100vh;
+$vw-base: 100vw;
+ 
+$vh-nav: math.div($vh-base, 7);
+$vh-content: math.div($vh-base, 4);
+
+//Transition
+$min-duration: 0.5;
+$max-duration: 1.2s;
+$time-delay: random(50);
+$time-transition: random(5) * ($max-duration - $min-duration) + $min-duration;

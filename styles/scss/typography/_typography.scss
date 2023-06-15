@@ -1,0 +1,109 @@
+@use "fonts.scss";
+
+body{
+    font-family: Open Sans, sans-serif;
+}
+.first-bar{
+    span{
+        font-size: 16px;
+        letter-spacing: -.35px;
+    }
+}
+
+h2{
+    font-size: 22px;
+    letter-spacing: -.4px;
+    font-weight: 700;
+
+}
+
+.pills-bar{
+
+    .pill{
+        font-size: 14px;
+        font-weight: 600; 
+    }
+}
+
+.headers-bar{
+    span{
+        font-weight: 600;
+        letter-spacing: -.35px;
+        font-size: 14px;
+    }
+}
+
+.first-item-text{
+
+    .company{
+        font-family: Open Sans,Arial,sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: -.2px;
+    }
+
+    .company-name{
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: -.15px;
+    }
+}
+.second-item{
+
+    .second-item-number{
+        font-family: DINOT-Bold, Open Sans, sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .item-percentage{
+        font-family: DINOT,general-font,Arial,sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+    }
+}
+.content-item-2{
+
+    .content-item{
+
+        .content-item-shape{
+
+            .content-item-icon{
+                font-family: Open Sans,Arial,sans-serif;
+                font-size: 18px;
+                font-weight: 600;
+                letter-spacing: -.15px;
+            }
+
+            span{
+                font-size: 16px;
+                font-weight: 200;
+                font-family: DINOT-Bold, Open Sans, sans-serif;
+            }
+        }
+    }
+    
+    .item-transparent{
+        span{
+            font-size: 16px;
+            font-weight: 200;
+            font-family: DINOT-Bold, Open Sans, sans-serif;
+        }
+    }
+
+}
+
+.footer-text{
+
+    .footer-valor{
+        font-family: DINOT,general-font,Arial;
+        font-size: 22px;
+        letter-spacing: -.3px;
+        font-weight: 300;
+    }
+
+    .footer-valor-2{
+        font-size: 16px;
+        text-transform: capitalize;
+        letter-spacing: -.35px;
+    }
+}

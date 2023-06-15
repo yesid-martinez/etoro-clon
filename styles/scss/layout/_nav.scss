@@ -1,0 +1,156 @@
+@use "../colors/palette" as colors;
+@use "sass:math";
+.nav{
+    height: 100vh;
+    width: 5rem;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: colors.$neutral-20-dm;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 200;
+
+    .nav-first-sect{
+        height: math.div(100vh, 3);
+        width: 5rem;
+
+        .nav-element1{
+            width: 100%;
+            height: 5rem;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;  
+
+            img{
+                width: 1.5rem;
+                height: 1.2rem;
+                rotate: 180deg;
+                
+                cursor: pointer;
+            }
+        }
+        .nav-element2{
+            width: 100%;
+            height: 5rem;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            img{
+                height: 2.5rem;
+                width: 2.5rem;
+                margin-top: 0.313rem;
+
+                border-radius: 0.125rem;
+                cursor: pointer;
+
+                background-color: colors.$neutral-0;
+            }
+        }
+    }
+    
+    .nav-second-sect{
+        height: math.div(100vh, 2);
+        width: 5rem;
+
+        .nav-element3{
+            width: 100%;
+            height: 5rem;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            img{
+                width: 1.6rem;
+                height: 1.6rem;
+
+                cursor: pointer;
+            }
+        }
+        .nav-element4{
+            width: 100%;
+            height: 4.5rem;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            border-left: 0.125rem solid colors.$primary-110;
+            background: repeating-radial-gradient(circle at 0 50%,#3fc56524, transparent);
+    
+            img{
+                width: 2.8rem;
+                height: 2.5rem;
+                
+                cursor: pointer;
+            }
+        }
+        .nav-element5{
+            width: 100%;
+            height: 5rem;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            i{
+                font-size: 1.3rem;
+
+                color: colors.$neutral-0;
+
+                cursor: pointer;
+            }
+        }
+        .nav-element6{
+            width: 100%;
+            height: 5rem;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    
+            i{
+                font-size: 1.4rem;
+
+                color: colors.$neutral-0;
+
+                cursor: pointer;
+            }
+        }
+    }
+    
+    .nav-settings-sect{
+        height: math.div(100vh, 3.5);
+        width: 5rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .nav-element7{
+            width: 100%;
+            height: 100%;
+
+            display: flex;
+            justify-content: center;
+    
+            img{
+                display: flex;
+                align-self: flex-end;
+                
+                width: 1.6rem;
+                height: 1.6rem;
+                margin-bottom: 1.5rem;
+
+                cursor: pointer;
+            }
+        }
+    }
+}

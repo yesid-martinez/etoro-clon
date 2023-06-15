@@ -1,0 +1,20 @@
+@use "../utilities/variables.scss" as vars;
+
+@mixin pills{
+    height: 2.188rem;
+
+    padding: 0 .938rem;
+    margin-right: .625rem;
+
+    display: flex;
+    align-items: center;
+
+    color: #555B70;
+    background-color: transparent;
+    
+    border: 1px solid #DDDD;
+    border-radius: 6.25rem;
+    
+    cursor: pointer;
+}
+

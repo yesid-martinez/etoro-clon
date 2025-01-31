@@ -1,15 +1,22 @@
-# Proyecto Clon de eToro
+# eToro Clon
 
-Este proyecto es un clon estático de una sección de la página web de eToro, creado únicamente con HTML y Sass. El objetivo de este proyecto es prácticar y demostrar habilidades en el desarrollo web utilizando estas tecnologías.
+This project is a static clone of a section of the [eToro](https://www.etoro.com/es/) website.
 
-## Visita el sitio
+eToro is an Israeli multinational social trading and multi-asset investment company focused on providing financial and copy trading services.
 
-El proyecto se encuentra disponible en el siguiente enlace: [eToro Clon](https://etoro-clon.netlify.app/)
+The goal of this project is to practice and demonstrate web development skills using these technologies.
 
-## Contribuciones
+![image](https://github.com/user-attachments/assets/ca4fda0f-6d51-4e16-9565-e5d31eb9bc35)
 
-Las contribuciones a este proyecto no son necesarias, ya que es un proyecto personal de práctica. Sin embargo, puedes compartir tu contribución abriendo un nuevo "issue" en el repositorio.
+## Technologies
 
-## Contacto
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![Sass](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 
-Si tienes alguna pregunta o inquietud relacionada con este proyecto, puedes contactarme a través de mi correo electrónico: [wujibifan.hh@gmail.com](mailto:wujibifan.hh@gmail.com).
+## Visit the site
+
+The project is available at the following link: [eToro Clon](https://etoro-clon.netlify.app/)
+
+## Contact
+
+If you have any questions or concerns related to this project, you can contact me through my email: [martinezy.dev@gmail.com](mailto:martinezy.dev@gmail.com).
